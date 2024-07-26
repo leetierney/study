@@ -1,0 +1,7 @@
+python3 2_p1.py  5317.31s user 62.38s system 391% cpu 22:53.79 total
+RMSE:  70279.30953970845
+Best Parameters:  {'C': 1000.0, 'kernel': 'linear'}
+
+python3 2_p2.py  7031.84s user 71.08s system 387% cpu 30:31.46 total
+RMSE:  55218.27407578037
+Best Parameters:  {'C': 157055.10989448498, 'gamma': 0.26497040005002437, 'kernel': 'rbf'}
