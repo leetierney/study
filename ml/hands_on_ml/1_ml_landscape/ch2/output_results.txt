@@ -5,3 +5,15 @@ Best Parameters:  {'C': 1000.0, 'kernel': 'linear'}
 python3 2_p2.py  7031.84s user 71.08s system 387% cpu 30:31.46 total
 RMSE:  55218.27407578037
 Best Parameters:  {'C': 157055.10989448498, 'gamma': 0.26497040005002437, 'kernel': 'rbf'}
+
+python3 2_p3.py  49.45s user 1.05s system 100% cpu 50.012 total
+Indices of the top k features:  [ 0  1  7  9 12]
+Top k features:  ['longitude' 'latitude' 'median_income' 'pop_per_hhold' 'INLAND']
+Actual top k features:  [(0.3790092248170967, 'median_income'), (0.16570630316895876, 'INLAND'), (0.10703132208204354, 'pop_per_hhold'), (0.06965425227942929, 'longitude'), (0.0604213840080722, 'latitude')]
+
+python3 2_p4.py  7179.99s user 76.66s system 373% cpu 32:23.69 total
+Predictions:	 [ 83029.7666155  296483.8132826   99374.01853503 151288.1073986 ]
+Labels:		 [72100.0, 279600.0, 82700.0, 112500.0]
+
+python3 2_p5.py  14839.17s user 172.06s system 374% cpu 1:06:44.36 total
+{'feature_selection__k': 1, 'preparation__num__imputer__strategy': 'mean'}
